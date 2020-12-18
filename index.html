@@ -8,10 +8,22 @@
 </head>
 <body>
   <div> id=" app ">
-    <input> type="text">
+    <input> type="text"> v-model="name">
     <p>Hello John</p>
-
-
   </div>  
+  <script>
+    new Vue({ 
+        el: "#app",
+        data(){ 
+            return {
+
+                name: 'John'
+            }
+        }
+
+
+    })
+
+  </script>
 </body>
 </html>
