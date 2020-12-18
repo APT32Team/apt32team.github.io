@@ -3,7 +3,6 @@ author:
   name: Harry
   email: duykhang6898@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-My personal log
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
