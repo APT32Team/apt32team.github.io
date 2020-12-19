@@ -41,4 +41,5 @@ jobs:
           git config user.name 'duykhang68'
           git config user.email 'duykhang6898@gmail.com'
           git commit -am "bot: update README.md automatically"
-          git push --force
+          git pull
+          git push 
